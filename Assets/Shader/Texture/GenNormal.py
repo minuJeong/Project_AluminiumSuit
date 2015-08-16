@@ -17,8 +17,8 @@ for x in range(img.size[0]):
 	for y in range(img.size[1]):
 
 		# Set tangent, bitangent, normal
-		t = 5 + math.cos(y * 10 * deg_to_rad) + math.sin(x * deg_to_rad)
-		b = 5 + math.sin(x * 10 * deg_to_rad) + math.cos(y * deg_to_rad)
+		t = 5 + math.cos(y * 1.5 * deg_to_rad) + math.sin(x * deg_to_rad)
+		b = 5 + math.sin(x * 1.5 * deg_to_rad) + math.cos(y * deg_to_rad)
 		n = 10
 
 		# get magnitude
